@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #424344;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -154,7 +154,7 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
+        // background: $background;
         text-align: center;
         padding: 10px;
         margin: 0;

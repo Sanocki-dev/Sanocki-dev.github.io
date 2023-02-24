@@ -23,7 +23,7 @@
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
-        <ul id="menu" class="shadow">
+        <ul id="menu">
             <li>
                 <a href="#about">About</a>
             </li>
@@ -50,7 +50,7 @@
         <div id="lead-content">
             <h1>Michael Sanocki</h1>
             <h2>Full Stack Developer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="/images/Michael_Sanocki_Resume.pdf" class="btn-rounded-white" download>Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -167,10 +167,27 @@
                     <div class="project-info">
                         <h3>Weather App</h3>
                         <p>
-                            A simple weather app created using base HTML, CSS, JavaScript, Node, Express and the weatherstack API. Completely designed by myself and even using custom SVG's for weather that I created using InkScape
+                            A simple weather app created using base HTML, CSS, JavaScript, Node, Express and the weatherstack API. Completely designed by myself and even using custom SVG's for weather that I created using InkScape.
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#">View Project</a> -->
                     </div>
+
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>More to come...</h3>
+                        <p>
+                            I am always working on new applications come back soon or shoot me a message and we can make something together!
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
@@ -204,11 +221,11 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" id="form" action="https://formspree.io/f/mzbqrlzy" >
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
+                <input autocomplete="false" type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
+                <button type="submit" id="but">Send</button>
             </form>
         </div>
         <!-- End #contact-form -->
@@ -258,5 +275,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
-
 </html>

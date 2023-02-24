@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #424344;
+$base-color: #ffae00;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -540,7 +540,6 @@ footer {
 .vtimeline-point {
   position: relative;
   display: block;
-  vertical-align: top;
   margin-bottom: 30px;
 }
 

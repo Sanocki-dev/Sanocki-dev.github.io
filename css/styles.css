@@ -455,6 +455,7 @@ footer {
   color: #374054;
   margin-bottom: 50px;
 }
+
 .project {
   position: relative;
   text-align: left;
@@ -466,8 +467,9 @@ footer {
 }
 .project-image > img {
   float: left;
-  object-fit: contain;
+  object-position: top;
   width: 50%;
+  height: 300px;
 }
 .project-info {
   position: absolute;
@@ -485,9 +487,24 @@ footer {
 }
 .project-info p {
   color: #74808a;
-  margin: 0 0 15px 0;
+  margin: 0 0 25px 0;
   font-size: 0.9em;
 }
+
+.project-info a {
+  /* background-color: #0099ff; */
+  border-radius: 8px;
+  border: 2px solid #0099ff;
+  padding: 7px 15px;
+  text-decoration: none;
+  transition: 0.5s ease all;
+}
+.project-info a:hover {
+  background-color: #0099ff;
+  text-decoration: none;
+  color: white;
+}
+
 .no-image .project-info {
   position: relative;
   margin: 0;
@@ -507,9 +524,9 @@ footer {
 }
 
 #skills h2:last-of-type {
-    color: #374054;
-    margin: 40px 0;
-  }
+  color: #374054;
+  margin: 40px 0;
+}
 
 #skills ul {
   display: block;

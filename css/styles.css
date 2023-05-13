@@ -743,6 +743,7 @@ footer {
     position: relative;
     margin: 0;
     padding: 30px 15px;
+    width: 100%;
     top: auto;
     transform: none;
   }
